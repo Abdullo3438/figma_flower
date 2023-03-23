@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'
+}
+
+
+
+
+.nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/Rectangle\ 15.png);
+}
+
+.container {
+    width: 85%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.logo {
+    padding: 10px 0;
+}
+
+
+.logo h1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav_menu {
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu2 {
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.menu2 li a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.main21 {
+    width: 100%;
+    background-image: url(./img/Rectangle\ 15.png);
+}
+
+.main {
+    width: 85%;
+    height: 745px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .text {
+    width: 600px;
+    height: 580px;
+    /* margin-left: 30px; */
+}
+
+.text11 {
+    width: 450px;
+    height: 320px;
+}
+
+.text11 h1 {
+    width: 380px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.text11 h1 span {
+    color: #05FF00;
+}
+
+
+.text11 p {
+    margin-top: 30px;
+    width: 370px;
+    color: #fff;
+}
+
+
+.text11 .btn {
+    width: 300px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn button {
+    width: 130px;
+}
+
+.btn button:nth-child(1) {
+    background: #54C352;
+    color: #ffffff;
+    border: none;
+}
+
+.btn button:nth-child(2) {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.btn button:nth-child(2) img {
+    width: 25px;
+    height: 8px;
+    margin-left: 5px;
+}
+
+
+.image {
+    width: 500px;
+    height: 500px;
+    /* background-image: url(./img/hand-holding-plant-save-environment-campaign_53876-127194\ 1.png);
+    background-size:  cover; */
+    position: relative;
+    overflow: hidden;
+}
+
+
+.image .land {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+.image img {
+    width: 500px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.rot {
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    transform: rotate(-80deg);
+    top: 150px;
+    right: -270px;
+
+}
+
+.information {
+    width: 380px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.information .box h1 {
+    color: #05FF00;
+}
+
+.information .box p {
+    color: #fff;
+
+}
+
+.find1 {
+    margin-top: 40px;
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.find1 p {
+    font-size: 18px;
+    color: white;
+}
+
+.arrow img {
+    width: 60px;
+    height: 45px;
+}
+
+.footer_google {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_google ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.footer_google ul li a {
+    height: 100px;
+    text-decoration: none;
+    color: #78A677;
+    font-size: 45px;
+
+}
+
+
+.main_body {
+    width: 100%;
+    height: 700px;
+    background: #fff;
+}
+
+.container_floor {
+    width: 85%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.best {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.best h1 {
+    width: 100%;
+    color: #000;
+    font-weight: 800;
+
+}
+
+
+
+.best p {
+    width: 420px;
+    height: 60px;
+    margin-top: 20px;
+
+}
+
+.cards {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cards_1 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url(./img/Rectangle\ 15.png);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 8px;
+}
+
+
+.cards_1  img {
+     width:320px;
+     height:270px;
+position: absolute;
+left: 20px;
+top:-135px;
+}
+.cards_1   .text_flow h2 {
+width: 100%;
+text-align: center;
+color: white;
+padding: 20px 0;
+}
+.text_flow{
+    margin-top:90px;
+}
+
+.cards_1   .text_flow p{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    font-size: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.btn_flw{
+    width: 50%;
+    height: 45px;
+    margin: auto;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    padding-left: 15px;
+    color: #FF0000;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.btn_flw button{
+    width: 125.6px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    margin-left:15px ;
+    background: #54C352;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+.cards_2 {
+    width: 350px;
+    height: 350px;
+    background-image: url(./img/Rectangle\ 15.png);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.cards_2 img{
+    width: 290px;
+    height: 250px;
+    position: absolute;
+    top: -130px;
+    left: 30px;
+
+}
+
+.cards_2 .t111{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.t111  h3{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.t111  p{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    color:white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cards_3 {
+    width: 280px;
+    height: 270px;
+    background-image: url(./img/Rectangle\ 15.png);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cards_3 img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: -120px;
+    left: 20px;
+
+}
+.cards_3 .t2{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.t2  h3{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.t2  p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color:white;
+    font-size: 15px;
+    margin-top: 20px;
+}
